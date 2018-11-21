@@ -1,0 +1,18 @@
+package generics.generic;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class PairTest {
+
+	
+	@Test 
+	public void Test_getter() {
+		
+	PairGeneric<String,String> pairGeneric = new PairGeneric<String,String >("Kabir","Chris");
+	String result = pairGeneric.getA();
+	assertEquals("Kabir",result);
+	
+	}
+}

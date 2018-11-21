@@ -1,0 +1,13 @@
+package generics.generic;
+
+public class PairGeneric<T1, T2> {
+
+	private T1 a;
+	private T2 b;
+	public PairGeneric<T1, T2>(){
+		this.a = null;
+		this.b= null;
+	}
+	
+
+}

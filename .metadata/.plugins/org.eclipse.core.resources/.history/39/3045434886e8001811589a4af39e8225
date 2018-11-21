@@ -1,0 +1,33 @@
+package IntervalInterviewQuestion.interval;
+
+import static org.junit.Assert.assertEquals;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.Test;
+
+public class IntevalTest {
+	
+
+
+	@Test
+	public void test_one_interval_getSize() {
+		
+		//arrange
+		Integer[] a= {7,10};
+		IntervalMerger mergeInterval = new IntervalMerger();
+
+		//act
+		mergeInterval.addInterval(a);
+		List<Integer[]> result = mergeInterval.getResult();
+		
+		//assert
+		assertEquals(1, result.size());
+		
+		
+		
+		
+	}
+
+}

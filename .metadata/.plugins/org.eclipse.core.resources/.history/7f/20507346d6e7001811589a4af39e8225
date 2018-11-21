@@ -1,0 +1,27 @@
+package generics.generic;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CatalogueGeneric<T extends Catalogueable> {
+	
+	List<T> items = new ArrayList<T>();
+
+	public void add(T t) {
+		items.add(t);
+	}
+
+	public T getT() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	public T findT() {
+		for(T i : items) {
+			if(i.getId()==1)
+				return i;
+		}
+	}
+	
+
+}

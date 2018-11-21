@@ -1,0 +1,9 @@
+package designPatterns.designPatterns;
+
+public class StorageFactory {
+	
+	public static ArrayListStorage getStorage() {
+		return new ArrayListStorage();
+	}
+
+}

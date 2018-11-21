@@ -1,0 +1,10 @@
+package OOD3_Elevator_Kabir.elevatorProject;
+
+public class Elevator {
+
+	public int go(int i) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

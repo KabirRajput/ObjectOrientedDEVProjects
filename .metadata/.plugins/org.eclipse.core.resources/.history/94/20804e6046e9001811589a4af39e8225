@@ -1,0 +1,12 @@
+package com.fdmgroup.tdd.taxcalculator;
+
+public class ScottishTaxCalculator implements TaxCalculationService {
+
+	public double getTaxRate(double income) {
+		if(income<=11,500)
+			return 0;
+		if(income>=11,501&& income<=13850)
+			return 19;
+	}
+
+}

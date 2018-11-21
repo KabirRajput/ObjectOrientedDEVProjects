@@ -1,0 +1,10 @@
+package com.fdmgroup.tdd.taxcalculator;
+
+public class ScottishTaxCalculator implements TaxCalculationService {
+
+	public double getTaxRate(double income) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

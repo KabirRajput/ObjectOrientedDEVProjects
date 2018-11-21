@@ -1,0 +1,33 @@
+package OOD3_Elevator_Kabir.elevatorProject;
+
+public class Elevator {
+
+	private int floor;
+	Direction dir;
+	List<Interger> floor;
+	
+	public int go(int i) {
+		return 0;
+	}
+
+	public void moveUp(){
+		dir = Direction.UP;
+	}
+
+	public void moveDown(){
+		dir = Direction.DOWN;
+	}
+
+	public boolean isMoving(){
+		return dir.equals(Direction.STATIONARY);
+	}
+
+	public int getFloor() {
+		return floor;
+	}
+
+	public void setFloor(int floor) {
+		this.floor = floor;
+	}
+
+}

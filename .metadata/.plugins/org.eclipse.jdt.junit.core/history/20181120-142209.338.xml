@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BuildingElevatorControllerTest" project="elevatorProject" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="OOD3_Elevator_Kabir.elevatorProject.BuildingElevatorControllerTest" time="0.0">
+    <testcase name="test__Adding_poeple_and_elvators_to_a_Building" classname="OOD3_Elevator_Kabir.elevatorProject.BuildingElevatorControllerTest" time="0.0"/>
+  </testsuite>
+</testrun>

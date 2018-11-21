@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ElevatorTest (1)" project="elevatorProject" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="com.java.ood.elevatorproject.modeltest.ElevatorTest" time="0.0">
+    <testcase name="given_Elevator_going_it_does_serviceFloor" classname="com.java.ood.elevatorproject.modeltest.ElevatorTest" time="0.0"/>
+    <testcase name="given_Elevator_going_it_does_deccelearte" classname="com.java.ood.elevatorproject.modeltest.ElevatorTest" time="0.0"/>
+    <testcase name="given_Elevator_From_0_To_1_when_getCurrentFloor_returns1" classname="com.java.ood.elevatorproject.modeltest.ElevatorTest" time="0.0"/>
+    <testcase name="given_Elevator_going_it_does_accelearte" classname="com.java.ood.elevatorproject.modeltest.ElevatorTest" time="0.0"/>
+    <testcase name="given_Elevator_going_it_does_changeFloors" classname="com.java.ood.elevatorproject.modeltest.ElevatorTest" time="0.0"/>
+    <testcase name="given_Elevator_going_it_does_checkOverCapacity" classname="com.java.ood.elevatorproject.modeltest.ElevatorTest" time="0.0"/>
+  </testsuite>
+</testrun>

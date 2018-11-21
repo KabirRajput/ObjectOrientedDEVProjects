@@ -1,0 +1,5 @@
+package designPatterns.designPatterns;
+
+public class UserFactory {
+
+}

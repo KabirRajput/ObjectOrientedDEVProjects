@@ -1,0 +1,10 @@
+package fibonacci.fibonacci;
+
+public class Fibonacci {
+
+	public int computeFib(int num) {
+		// TODO Auto-generated method stub
+		return =1;
+	}
+
+}

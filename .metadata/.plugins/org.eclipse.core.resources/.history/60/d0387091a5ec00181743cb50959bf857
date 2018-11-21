@@ -1,0 +1,29 @@
+package com.java.ood.elevatorproject.modeltest;
+
+import java.util.*;
+
+import org.junit.Test;
+
+import com.java.ood.elevatorproject.model.Elevator;
+import com.java.ood.elevatorproject.model.ElevatorLogic;
+
+public class ElevatorLogicTest {
+	@Test
+	public void given_Elevator_0_1_it_adds_to_elevator_floor_list() {
+		
+		Elevator elevator = new Elevator();
+		List<Elevator> elevatorList = new ArrayList<Elevator>();
+		elevatorList.add(elevator);
+		
+		ElevatorLogic logic = new ElevatorLogic(elevatorList);
+		
+		
+		
+		logic.assignFloor(0, 1);
+		
+		Queue<Integer> result = elevator.getFloorList();
+		
+		assertEquals(0, result.get(0));
+		assertEquals(1, result.get(1));
+	}
+}

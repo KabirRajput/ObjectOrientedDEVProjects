@@ -1,0 +1,16 @@
+package com.fdm.threading.deadlock;
+
+public class Runner {
+	
+	Pen pen = new Pen();
+	Board board = new Board();
+	
+	Darren darren = new Darren(pen, board);
+	Wesley wesley = new Wesley(pen, board);
+	
+	Thread darenThread = new Thread(darren);
+	Thread wesleyThread = new Thread(wesley);
+
+	
+
+}

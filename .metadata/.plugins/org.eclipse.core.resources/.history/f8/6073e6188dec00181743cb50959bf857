@@ -1,0 +1,81 @@
+package OOD3_Elevator_Kabir.elevatorProject;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class BuildingElevatorControllerTest {
+	
+	@Test
+	public void test_EmptyBuilding_Initializing_10Floors() {
+		
+		Building building = new Building();
+		Person person1 = new Person(0);
+		Person person2 = new Person(1);
+		Person person3 = new Person(0);
+		Person person4 = new Person(2);
+		Person person5 = new Person(2);
+		Person person6 = new Person(0);
+	
+		building.addToBuilding(person1);
+		building.addToBuilding(person2);
+		building.addToBuilding(person3);
+		building.addToBuilding(person4);
+		building.addToBuilding(person5);
+		building.addToBuilding(person6);
+		
+		int result = building.getPeopleInBuilding().size();
+
+		assertEquals(6,result);
+	}
+
+	
+	
+	@Test
+	public void test__Adding_poeple_and_elvators_to_a_Building() {
+		
+		Building building = new Building();
+		Person person1 = new Person(0);
+		Person person2 = new Person(1);
+		Person person3 = new Person(0);
+		Person person4 = new Person(2);
+		Person person5 = new Person(2);
+		Person person6 = new Person(0);
+	
+		building.addToBuilding(person1);
+		building.addToBuilding(person2);
+		building.addToBuilding(person3);
+		building.addToBuilding(person4);
+		building.addToBuilding(person5);
+		building.addToBuilding(person6);
+		
+		int result = building.getPeopleInBuilding().size();
+
+		assertEquals(6,result);
+	}
+	
+	@Test
+	public void test_Person_Destination_Floor_Building() {
+		
+		Building building = new Building();
+		Person person1 = new Person(0);
+		Person person2 = new Person(1);
+		Person person3 = new Person(0);
+		Person person4 = new Person(2);
+		Person person5 = new Person(2);
+		Person person6 = new Person(0);
+	
+		building.addToBuilding(person1);
+		building.addToBuilding(person2);
+		building.addToBuilding(person3);
+		building.addToBuilding(person4);
+		building.addToBuilding(person5);
+		building.addToBuilding(person6);
+		
+		int result = building.getPeopleInBuilding().size();
+
+		assertEquals(6,result);
+	}
+
+
+}

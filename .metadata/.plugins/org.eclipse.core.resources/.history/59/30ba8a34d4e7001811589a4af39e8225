@@ -1,0 +1,15 @@
+package generics.generic;
+
+public class CatalogueGeneric<T> {
+
+	public void add(Catalogueable T) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public T getT() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

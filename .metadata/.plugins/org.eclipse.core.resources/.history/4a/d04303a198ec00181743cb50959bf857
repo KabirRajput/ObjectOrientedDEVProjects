@@ -1,0 +1,9 @@
+package OOD3_Elevator_Kabir.elevatorProject;
+
+public class Person {
+
+	public Person(int i) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

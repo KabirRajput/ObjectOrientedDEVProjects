@@ -1,0 +1,23 @@
+package OOD3_Elevator_Kabir.elevatorProject;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Building {
+
+	List<Person> peopleList = new ArrayList<Person>();
+	
+	public Building(List<Elevator> elevatorList) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void addToBuilding(Person person1) {
+		peopleList.add(person1);
+		
+	}
+
+	public List<Person> getPeopleInBuilding() {
+		return peopleList;
+	}
+
+}

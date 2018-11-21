@@ -1,0 +1,16 @@
+package com.java.abstraction;
+
+public class Main {
+	
+	public static void main(String[] args) {\
+		
+	
+	/*9
+	 can't use the deafault constructor anymore
+	ConcreteClassExample concreteClass=new ConcreteClassExample();
+	*/
+	//10
+	ConcreteClassExample concreteClass = new ConcreteClassExample("test");
+	
+	}
+}

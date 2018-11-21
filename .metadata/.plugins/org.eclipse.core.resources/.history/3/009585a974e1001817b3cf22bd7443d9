@@ -1,0 +1,6 @@
+package com.java.abstraction;
+
+public abstract class AbstractExample {
+	
+	public abstract void doSomething();
+}

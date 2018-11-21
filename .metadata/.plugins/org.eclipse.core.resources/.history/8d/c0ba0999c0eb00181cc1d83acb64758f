@@ -1,0 +1,15 @@
+package com.fdm.threading.deadlock;
+
+public class Darren implements Runnable{
+
+	@Overide 
+	public void run() {
+		while (true) {
+		synchronized (pen) {
+			synchronized (Board) {
+				System.out.println("darren is waiting");
+			}
+		}
+	}
+	}
+}

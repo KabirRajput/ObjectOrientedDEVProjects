@@ -1,0 +1,12 @@
+package com.java.ood.elevatorproject.model;
+
+import java.util.List;
+
+public class ElevatorLogic {
+	private List<Elevator> elevatorList;
+
+	public ElevatorLogic(List<Elevator> elevatorList) {
+		this.elevatorList = elevatorList;
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.fdmgroup.tdd.group.controller;
+
+import org.junit.Test;
+import static org.mockito.Mockito.*;
+
+public class GroupControllerServiceTest {
+	
+	@Test
+	public void test_traineeTest() {
+		
+		//Arrange or Mock
+		GroupControllerService mockController = mock(TraineeController.class);
+		
+		//act
+		mockController.getAllTrainees();
+		
+		//verify
+		verify(mockController).getAllTrainees();
+	}
+
+}

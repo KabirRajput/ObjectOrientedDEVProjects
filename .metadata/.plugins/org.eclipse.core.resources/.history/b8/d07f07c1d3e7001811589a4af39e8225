@@ -1,0 +1,5 @@
+package generics.generic;
+
+public class CatalogueGeneric<T> {
+
+}

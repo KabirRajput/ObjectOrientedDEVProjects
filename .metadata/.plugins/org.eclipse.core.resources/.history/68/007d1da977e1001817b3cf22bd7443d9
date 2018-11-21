@@ -1,0 +1,52 @@
+package com.java.abstraction;
+
+// Concept 7: Any class that implements an interface must provide method bodies 
+//for each method in the interface, unless it is an abstract class.
+
+// Concept 8: Assume interface B extends interface A.  
+// A class that implements B must provide method bodies for methods in both A and B. 
+
+// Concept 9: Every class must have a constructor, even if it is the default constructor
+//that the compiler adds. 
+
+// Concept 10: Constructors can be overloaded.
+
+// Concept 11: Methods can be overloaded.
+
+public class ConcreteClassExample implements IntefaceExample, AnotherInterface  {
+
+	public ConcreteClassExample(String field1, int field2) {
+		super();
+		this.field1 = field1;
+		this.field2 = field2;
+	}
+	
+	public ConcreteClassExample(String field1) {
+		super();
+		this.field1 = field1;
+	}
+
+	public String field1;
+	public int field2;
+	//8
+	@Override
+	public void interfaceMethod() {
+		// TODO Auto-generated method stub
+	}
+	@Override
+	public void anotherInteraceMethod() {
+		// TODO Auto-generated method stub	
+	}
+	
+	//11
+	public void overloadedMethod1(String field1) {
+		System.out.println("using string field1");
+	}
+	public void overloadedMethod1(int field1) {
+		System.out.println("using string field2");
+	}
+	
+	
+
+	
+}

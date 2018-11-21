@@ -1,0 +1,8 @@
+package com.java.abstraction;
+
+public interface IntefaceExample {
+
+	// Concept 5 :All variables in an interface are implicitly final, even if the final modifier is not used.
+	//5
+	String variable="need To Initialize To Be Final";
+}

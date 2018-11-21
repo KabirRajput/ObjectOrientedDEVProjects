@@ -1,0 +1,41 @@
+package com.fdmgroup.tdd.group.controller;
+
+import org.junit.Test;
+import static org.mockito.Mockito.*;
+
+public class GroupControllerServiceTest {
+
+	@Test
+	public void test_Add_trainee_Test() {
+
+		//Arrange or Mock
+		DatabaseReader mockDBR = mock(DatabaseReader.class)
+		DatabaseWriter mockDBW = mock(DatabaseWriter.class)
+		TraineeController cont = new TraineeController(mockDBR, mockDBW);
+		Trainee kabir = new Trainee();
+
+		//act
+		cont.addTrainee(kabir);
+
+		//verify
+		verify(mockGroupController).addTrainee(kabir);
+
+	}
+
+	/*
+	@Test
+	public void test_ReadAlltraineeTest() {
+
+		//Arrange or Mock
+		GroupControllerService mockGroupController = mock(GroupControllerService.class);
+		TraineeController cont = new TraineeController(mockGroupController);
+		Trainee kabir = new Trainee();
+
+		//act
+		cont.getAllTrainees();
+
+		//verify
+		verify(mockGroupController).getAllTrainees();
+	}*/
+
+}

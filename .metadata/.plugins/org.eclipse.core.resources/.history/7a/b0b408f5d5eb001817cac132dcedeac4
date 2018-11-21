@@ -1,0 +1,11 @@
+package OOD3_Elevator_Kabir.elevatorProject;
+
+public class Elevator {
+
+	private int floor;
+	
+	public int go(int i) {
+		return 0;
+	}
+
+}

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\kabir.rajput\JavaEclipseWorkspace"/>
+			<item value="C:\Users\kabir.rajput\JavaEclipseWorkspace\tddAssessment_Kabir\src\test\java\com\fdmgroup\tdd\group\controller\GroupControllerServiceTest.java"/>
+			<item value="C:\Users\kabir.rajput\JavaEclipseWorkspace\interval\src\test\java\IntervalInterviewQuestion\interval\IntevalTest.java"/>
+			<item value="C:\Users\kabir.rajput\JavaEclipseWorkspace\io\src\test\java\javaIO\io"/>
+			<item value="C:\Users\kabir.rajput\JavaEclipseWorkspace\generic\src\test\java\generics\generic\PairTest.java"/>
+			<item value="C:\Users\kabir.rajput\JavaEclipseWorkspace\ObserverPattern\src\observer\pattern\java\demo\Subject.java"/>
+			<item value="C:\Users\kabir.rajput\JavaEclipseWorkspace\collectionsExercise\src\test\java\Collections\collectionsExercise\HelloTest.java"/>
+			<item value="C:\Users\kabir.rajput\JavaEclipseWorkspace\OOD_1\src\test\java\com\fdmgroup\bullcow1\OOD_1\BullCowTest.java"/>
+			<item value="C:\Users\kabir.rajput\JavaEclipseWorkspace\Junit\src\main\java\com\java\shoppingTest\Checkout.java"/>
+			<item value="C:\Users\kabir.rajput\JavaEclipseWorkspace\EclipseExample\src"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="OOD3_Elevator_Kabir.elevatorProject"/>
+			<item value="currencyProject.currencyProject"/>
+			<item value="fibonacci.fibonacci"/>
+			<item value="SerlializationExample.serilalizableExample"/>
+			<item value="IntervalInterviewQuestion.interval"/>
+			<item value="javaIO.io"/>
+			<item value="generics.generic"/>
+			<item value="designPatterns.designPatterns"/>
+			<item value="Collections.collectionsExercise"/>
+			<item value="ExCollections.collections"/>
+			<item value="ExCollections.Collections"/>
+			<item value="Ex5Mockito.Mock"/>
+			<item value="UserReg.userReg"/>
+		</list>
+		<list key="groupId">
+			<item value="OOD3_Elevator_Kabir"/>
+			<item value="currencyProject"/>
+			<item value="fibonacci"/>
+			<item value="SerlializationExample"/>
+			<item value="IntervalInterviewQuestion"/>
+			<item value="javaIO"/>
+			<item value="generics"/>
+			<item value="designPatterns"/>
+			<item value="Collections"/>
+			<item value="ExCollections"/>
+			<item value="Ex5Mockito"/>
+			<item value="UserReg"/>
+		</list>
+		<list key="artifactId">
+			<item value="elevatorProject"/>
+			<item value="currencyProject"/>
+			<item value="fibonacci"/>
+			<item value="serilalizableExample"/>
+			<item value="interval"/>
+			<item value="io"/>
+			<item value="generic"/>
+			<item value="designPatterns"/>
+			<item value="collectionsExercise"/>
+			<item value="collections"/>
+			<item value="Collections"/>
+			<item value="Mock"/>
+			<item value="userReg"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

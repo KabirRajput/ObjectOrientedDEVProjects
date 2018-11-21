@@ -1,0 +1,18 @@
+package currencyProject.currencyProject;
+
+import java.io.File;
+
+import javax.swing.text.Document;
+
+public class FileConverter {
+
+	public FileConverter(File filename) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Document getDoc() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

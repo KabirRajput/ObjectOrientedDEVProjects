@@ -1,0 +1,10 @@
+package Collections.collectionsExercise;
+
+public class Hello {
+
+	public void addString(String s) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

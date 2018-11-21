@@ -1,0 +1,6 @@
+package com.java.abstraction;
+
+public class Main {
+
+	ConcreteClassExample concreteClass = new ConcreteClassExample();
+}

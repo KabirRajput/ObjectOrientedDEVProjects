@@ -1,0 +1,5 @@
+package generics.generic;
+
+public class PairGeneric<T1, T2> {
+
+}

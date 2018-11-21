@@ -1,0 +1,18 @@
+package com.java.ood.elevatorproject.model;
+
+import java.util.List;
+
+public class ElevatorLogic {
+	private List<Elevator> elevatorList;
+
+	public ElevatorLogic(List<Elevator> elevatorList) {
+		this.elevatorList = elevatorList;
+	}
+
+	public void assignFloor(Elevator elevatorIndex, int destinationFloor) {
+		// logic to decide which elevator to assign
+		elevatorList.get(elevatorIndex).floorList.add(destinationFloor);
+		
+	}
+
+}

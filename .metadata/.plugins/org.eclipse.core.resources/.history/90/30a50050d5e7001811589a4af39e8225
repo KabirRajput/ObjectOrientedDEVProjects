@@ -1,0 +1,13 @@
+package generics.generic;
+
+public class Book implements Catalogueable{
+	
+	private int id;
+
+	public int getId() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
+}

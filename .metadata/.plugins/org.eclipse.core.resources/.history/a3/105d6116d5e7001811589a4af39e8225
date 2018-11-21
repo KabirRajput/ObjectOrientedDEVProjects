@@ -1,0 +1,8 @@
+package generics.generic;
+
+public class Book implements Catalogueable{
+	
+	private int id;
+
+	
+}

@@ -1,0 +1,41 @@
+package OOD3_Elevator_Kabir.elevatorProject;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Elevator {
+
+	private TreeSet<Integer> up = new TreeSet<>(); // floors above currentFloor
+	private TreeSet<Integer> down = new TreeSet<>(); // floors below currentFloor
+	private int currentFloor = 0;
+	Direction dir;
+	
+	public void go(int i) {
+		floorList.add(i);
+	}
+
+	public void moveUp(){
+		dir = Direction.UP;
+	}
+
+	public void moveDown(){
+		dir = Direction.DOWN;
+	}
+
+	public boolean isMoving(){
+		return dir.equals(Direction.STATIONARY);
+	}
+
+	public int getFloor() {
+		return currentFloor;
+	}
+
+	public void setFloor(int floor) {
+		this.currentFloor = floor;
+	}
+
+	public List<Integer> getList() {
+		return floorList;
+	}
+
+}

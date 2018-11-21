@@ -1,0 +1,18 @@
+package com.fdm.threading;
+
+public class Runner {
+
+	public static void main(String[] args) {
+
+		String name = new String("name");
+
+		ThreadExample threadExample = new ThreadExample(name);
+		
+		
+		RunnableExample runnableExample = new RunnableExample(name);
+		Thread runnableThread = new Thread(runnableExample);
+		
+		runnableThread.start();
+		threadExample.start();
+	}
+}

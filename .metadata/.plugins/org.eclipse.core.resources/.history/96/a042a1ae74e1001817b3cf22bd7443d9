@@ -1,0 +1,13 @@
+package com.java.abstraction;
+
+// An abstract class can contain both abstract and non-abstract methods.
+
+public abstract class AbstractExample {
+	
+	public abstract void doSomething();
+	
+	public void doSomethingwithCode() {
+		
+		System.out.println("abstract class with a concrete method"); 
+	}
+}

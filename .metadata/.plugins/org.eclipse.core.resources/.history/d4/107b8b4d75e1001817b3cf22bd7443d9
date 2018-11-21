@@ -1,0 +1,6 @@
+package com.java.abstraction;
+
+public interface IntefaceExample {
+
+	String variable="need To Initialize To Be Final";
+}

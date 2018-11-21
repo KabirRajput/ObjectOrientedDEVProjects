@@ -1,0 +1,21 @@
+package com.fdm.threading;
+
+public class RunnableExample {
+	
+	private String name;
+
+	public RunnableExample(String name) {
+		super();
+		this.name = name;
+	}
+	
+	
+	@Override
+	public void run() {
+		
+		
+	}
+
+
+
+}

@@ -1,0 +1,19 @@
+package OOD3_Elevator_Kabir.elevatorProject;
+
+import org.junit.Test;
+
+public class ElevatorTest {
+	
+	@Test
+	public void test_Elevator_From_G_goes_To_1() {
+		
+		Elevator elevator = new Elevator();
+		
+		int result = elevator.go(1);
+		
+		assertEquals(1.result);
+		
+		
+	}
+
+}

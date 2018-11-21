@@ -1,0 +1,19 @@
+package Collections.collectionsExercise;
+
+import java.util.HashMap;
+
+public class HelloTest {
+
+	@Test
+	public test1_print_occurance_of_A() {
+		
+		Hello hello = new Hello();
+		HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+		String s = "aasjjikkk";
+		
+		hello.addString(s);
+		int result = hello.returnString('a');
+		assertEquals(2, result);
+		
+	}
+}

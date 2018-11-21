@@ -1,0 +1,88 @@
+package OOD3_Elevator_Kabir.elevatorProject;
+
+import static org.junit.Assert.assertEquals;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.Test;
+
+public class BuildingElevatorControllerTest {
+	
+	@Test
+	public void test_Initializing_Building_with_G_To_9_With_1_elevator_returns_9_floors() {
+		
+		Elevator elevator1 = new Elevator();
+		List<Elevator> elevatorList = new ArrayList<Elevator>();
+		elevatorList.add(elevator1);
+		int noOfFloors = 10;
+		
+		Building building = Building.getInstance(elevatorList,noOfFloors);
+		
+		int result = building.getFloor();
+		
+		assertEquals(9, result);
+		
+	}
+	
+	@Test
+	public void test_Initializing_Building_with_G_To_9_With_1_elevator_returns_1_elevator() {
+		
+		Elevator elevator1 = new Elevator();
+		Elevator elevator2 = new Elevator();
+		List<Elevator> elevatorList = new ArrayList<Elevator>();
+		elevatorList.add(elevator1);
+		elevatorList.add(elevator2);
+		int noOfFloors = 10;
+		
+		Building building = Building.getInstance(elevatorList,noOfFloors);
+		
+		List<Elevator> allElevators = building.getElevators();
+		
+		assertEquals(2,allElevators.size());
+		
+	}
+
+	@Test
+	public void test__Adding_poeple_and_elvators_to_a_Building() {
+		
+		Elevator elevator1 = new Elevator();
+		List<Elevator> elevatorList = new ArrayList<Elevator>();
+		elevatorList.add(elevator1);
+		int noOfFloors = 10;
+		
+		Building building = Building.getInstance(elevatorList,noOfFloors);
+
+		Person person1 = new Person(0);
+		building.addToBuilding(person1);
+		
+		int result = building.getPeopleInBuilding().size();
+
+		assertEquals(1,result);
+	}
+	/*
+	@Test
+	public void test_Person_Destination_Floor_Building() {
+		
+		Building building = new Building();
+		Person person1 = new Person(0);
+		Person person2 = new Person(1);
+		Person person3 = new Person(0);
+		Person person4 = new Person(2);
+		Person person5 = new Person(2);
+		Person person6 = new Person(0);
+	
+		building.addToBuilding(person1);
+		building.addToBuilding(person2);
+		building.addToBuilding(person3);
+		building.addToBuilding(person4);
+		building.addToBuilding(person5);
+		building.addToBuilding(person6);
+		
+		int result = building.getPeopleInBuilding().size();
+
+		assertEquals(6,result);
+	}
+*/
+
+}

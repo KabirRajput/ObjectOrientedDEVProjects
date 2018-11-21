@@ -1,0 +1,7 @@
+package generics.generic;
+
+public class PairTest {
+	
+	PairGeneric<String,String> pairGeneric = new PairGeneric<String,String >();
+
+}

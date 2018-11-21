@@ -1,0 +1,16 @@
+package generics.generic;
+
+public class CatalogueGeneric<T extends Catalogueable> {
+	
+	List<T> items = new ArrayList<T>
+
+	public void add(Catalogueable T) {
+		items.add(T);
+	}
+
+	public T getT() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

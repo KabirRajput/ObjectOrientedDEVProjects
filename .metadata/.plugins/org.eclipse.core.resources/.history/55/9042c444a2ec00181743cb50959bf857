@@ -1,0 +1,27 @@
+package com.java.ood.elevatorproject.controllertest;
+
+import org.junit.Test;
+
+import com.java.ood.elevatorproject.controller.ElevatorController;
+import com.java.ood.elevatorproject.model.Elevator;
+import com.java.ood.elevatorproject.view.ElevatorView;
+
+public class ElevatorControllerTest {
+
+	@Test
+	public void given_Elevator_0_1_it_adds_to_elevator_floor_list() {
+		
+		Elevator elevator = new Elevator();
+		ElevatorView elevatorView = new ElevatorView();
+		ElevatorController elevatorController = new ElevatorController(elevator, elevatorView);
+		
+		
+		elevatorController.register(0, 1);
+		
+		result = elevator.getFloorList();
+		
+		assertEquals(0, result.get(0));
+		assertEquals(1, result.get(1));
+	}
+	
+}

@@ -1,0 +1,10 @@
+package generics.generic;
+
+public class CatalogueGenric<T> {
+
+	public void add(Book book1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

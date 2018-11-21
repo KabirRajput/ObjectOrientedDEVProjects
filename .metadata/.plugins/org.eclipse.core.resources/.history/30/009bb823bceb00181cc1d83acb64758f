@@ -1,0 +1,17 @@
+package com.fdm.threading;
+
+public class RunnableExample {
+	
+	public class ThreadExample extends Thread{
+		
+		private String name;
+		
+		
+		
+		@Override
+		public void run() {
+			
+		}
+	}
+
+}

@@ -1,0 +1,15 @@
+package OOD3_Elevator_Kabir.elevatorProject;
+
+public class ElevatorTest {
+	
+	@Test
+	public void test_Elevator_From_G_goes_To_1() {
+		
+		Elevator elevator = new Elevator();
+		
+		elevator.go(1);
+		
+		
+	}
+
+}

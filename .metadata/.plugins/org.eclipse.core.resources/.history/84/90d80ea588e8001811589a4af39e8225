@@ -1,0 +1,19 @@
+package IntervalInterviewQuestion.interval;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class IntervalMerger {
+	
+	private List<Integer[]> intervalList= new ArrayList<Integer[]>();
+
+	public void addInterval(Integer[] a) {
+		this.intervalList.add(a);
+		
+	}
+
+	public List<Integer[]> getResult() {
+		return intervalList;
+	}
+
+}

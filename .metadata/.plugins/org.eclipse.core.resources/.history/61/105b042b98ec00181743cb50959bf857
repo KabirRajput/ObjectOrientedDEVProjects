@@ -1,0 +1,63 @@
+package OOD3_Elevator_Kabir.elevatorProject;
+
+import java.util.*;
+
+public class Building {
+	private int maxFloor;
+	private List<Elevator> elevatorList;
+
+	public Building(List<Elevator> elevatorList, int noOfFloors) {
+		this.elevatorList = elevatorList;
+		this.maxFloor = noOfFloors-1;
+	}
+
+	public int getMaxFloor() {
+		return maxFloor;
+	}
+
+	public List<Elevator> getAllElevators() {
+		return elevatorList;
+	}
+
+//	private List<Person> peopleList = new ArrayList<Person>();
+//	private final int maxFloor;
+//	private static Building instance;
+//	private List<Elevator> elevatorList = new ArrayList<Elevator>();
+//	
+//	public static Building getInstance(List<Elevator> elevatorList, int noOfFloors) {
+//		if(instance == null){
+//			instance = new Building(elevatorList, noOfFloors);
+//		}
+//
+//		System.out.println(elevatorList);
+//		return instance;
+//	}
+//
+//	public Building(List<Elevator> elevatorList, int noOfFloors) {
+//		this.elevatorList = elevatorList;
+//		this.maxFloor = noOfFloors-1;
+//	}
+//	
+//	public void addToBuilding(Person person1) {
+//		peopleList.add(person1);
+//
+//	}
+//
+//	public List<Person> getPeopleInBuilding() {
+//		return peopleList;
+//	}
+//
+//	public int getFloor() {
+//		return maxFloor;
+//	}
+//
+//	public List<Elevator> getElevators() {
+//		System.out.println(elevatorList);
+//		return elevatorList;
+//	}
+	
+	
+
+	
+
+}

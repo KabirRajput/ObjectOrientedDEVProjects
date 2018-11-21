@@ -1,0 +1,14 @@
+package IntervalInterviewQuestion.interval;
+
+public class IntevalTest {
+	
+	@Test
+	public void test_one_interval() {
+		
+		int[] a = {7,10};
+		
+		
+		
+	}
+
+}

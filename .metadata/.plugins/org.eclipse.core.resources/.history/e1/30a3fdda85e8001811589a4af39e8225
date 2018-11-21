@@ -1,0 +1,15 @@
+package IntervalInterviewQuestion.interval;
+
+public class IntervalMerger {
+
+	public void addInterval(int[] a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public int[] getResult() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
