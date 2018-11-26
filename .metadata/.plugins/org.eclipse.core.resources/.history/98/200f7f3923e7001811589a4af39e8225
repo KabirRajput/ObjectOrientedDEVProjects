@@ -1,8 +1,0 @@
-package designPatterns.designPatterns;
-
-public class UserManager {
-
-	IStorage userStorage = StorageFactory.getStorage();
-	userStorage.delete(1001);  //where 1001 is a userID.
-
-}

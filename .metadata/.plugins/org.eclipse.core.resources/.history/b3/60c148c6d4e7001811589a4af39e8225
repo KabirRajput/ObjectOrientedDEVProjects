@@ -1,6 +1,0 @@
-package generics.generic;
-
-public class Book implements Catalogueable{
-
-	
-}

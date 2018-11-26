@@ -68,6 +68,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="OOD3_Codility_Krypton_Kabir.Krypton_Kabir"/>
 			<item value="OOD3_Elevator_Kabir.elevatorProject"/>
 			<item value="currencyProject.currencyProject"/>
 			<item value="fibonacci.fibonacci"/>
@@ -83,6 +84,7 @@
 			<item value="UserReg.userReg"/>
 		</list>
 		<list key="groupId">
+			<item value="OOD3_Codility_Krypton_Kabir"/>
 			<item value="OOD3_Elevator_Kabir"/>
 			<item value="currencyProject"/>
 			<item value="fibonacci"/>
@@ -97,6 +99,7 @@
 			<item value="UserReg"/>
 		</list>
 		<list key="artifactId">
+			<item value="Krypton_Kabir"/>
 			<item value="elevatorProject"/>
 			<item value="currencyProject"/>
 			<item value="fibonacci"/>

@@ -1,7 +1,0 @@
-package generics.generic;
-
-public class PairTest {
-	
-	PairGeneric<T,T> pairGeneric = new PairGeneric<T,T>();
-
-}

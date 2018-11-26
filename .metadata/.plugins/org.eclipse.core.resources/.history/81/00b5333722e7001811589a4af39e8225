@@ -1,7 +1,0 @@
-package designPatterns.designPatterns;
-
-public class StorageFactory implements IStorage{
-	
-	public IStorage getStorage();
-
-}

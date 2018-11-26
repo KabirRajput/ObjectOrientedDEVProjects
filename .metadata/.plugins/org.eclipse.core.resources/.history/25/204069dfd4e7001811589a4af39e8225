@@ -1,7 +1,0 @@
-package generics.generic;
-
-public interface Catalogueable {
-	
-	private int id;
-
-}

@@ -7,3 +7,5 @@
 1542700372711	Move compilation unit
 1542703259370	Rename package 'com.java.ood.elevatorproject.controllerTest'
 1542706136323	Delete element
+1542789632741	Rename type 'BuildingElevatorControllerTest'
+1542789672711	Rename type 'BuildingControllerTest'

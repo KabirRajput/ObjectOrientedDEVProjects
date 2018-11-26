@@ -1,9 +1,0 @@
-package com.fdmgroup.tdd.taxcalculator;
-
-public class ScottishTaxCalculator implements TaxCalculationService {
-
-	public double getTaxRate(double income) {
-		return 0;
-	}
-
-}
