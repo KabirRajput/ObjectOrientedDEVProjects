@@ -10,7 +10,7 @@ public class JpaRunner {
 
 	public static void main(String args[]) {
 
-		User user = new User(3, "Mic", "pass", 1.830);
+		User user = new User(4, "Mic", "pass", 1.830);
 
 		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("jpa_demo");
 		UserDao userDao = new UserDao(entityManagerFactory);

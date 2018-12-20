@@ -1,0 +1,130 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+
+	<servlet>
+		<servlet-name>IndexServlet</servlet-name>
+		<servlet-class>com.fdmgroup.legendwealth.controller.IndexController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>IndexServlet</servlet-name>
+		<url-pattern></url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.fdmgroup.legendwealth.controller.LoginController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>com.fdmgroup.legendwealth.controller.LogoutController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>HomeServlet</servlet-name>
+		<servlet-class>com.fdmgroup.legendwealth.controller.HomeController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>HomeServlet</servlet-name>
+		<url-pattern>/home</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>TradeRecordServlet</servlet-name>
+		<servlet-class>com.fdmgroup.legendwealth.controller.TradeRecordController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>TradeRecordServlet</servlet-name>
+		<url-pattern>/trade-record</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SelectAssetServlet</servlet-name>
+		<servlet-class>com.fdmgroup.legendwealth.controller.SelectAssetController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SelectAssetServlet</servlet-name>
+		<url-pattern>/select-asset</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>TradeDetailServlet</servlet-name>
+		<servlet-class>com.fdmgroup.legendwealth.controller.TradeDetailController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>TradeDetailServlet</servlet-name>
+		<url-pattern>/trade-detail</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BlockedServlet</servlet-name>
+		<servlet-class>com.fdmgroup.legendwealth.controller.BlockedController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>BlockedServlet</servlet-name>
+		<url-pattern>/blocked</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PortfolioServlet</servlet-name>
+		<servlet-class>com.fdmgroup.legendwealth.controller.PortfolioController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>PortfolioServlet</servlet-name>
+		<url-pattern>/portfolio</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>TradeOperationServlet</servlet-name>
+		<servlet-class>com.fdmgroup.legendwealth.controller.TradeOperationController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>TradeOperationServlet</servlet-name>
+		<url-pattern>/buy-asset</url-pattern>
+	</servlet-mapping>
+
+	<filter>
+		<filter-name>InjectionAttackFilter</filter-name>
+		<filter-class>com.fdmgroup.legendwealth.filter.InjectionAttackFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>InjectionAttackFilter</filter-name>
+		<url-pattern>/login</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>VerifyLoginFilter</filter-name>
+		<filter-class>com.fdmgroup.legendwealth.filter.VerifyLoginFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>VerifyLoginFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+
+	<listener>
+		<listener-class>com.fdmgroup.legendwealth.listener.ApplicationContextListener</listener-class>
+	</listener>
+</web-app>

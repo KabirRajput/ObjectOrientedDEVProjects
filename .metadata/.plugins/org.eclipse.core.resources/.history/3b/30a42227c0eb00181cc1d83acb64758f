@@ -1,6 +1,0 @@
-package snippet;
-
-public class Snippet {
-	String name1 = new String("name");
-}
-

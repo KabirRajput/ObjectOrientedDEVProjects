@@ -22,7 +22,7 @@ public class UserDao {
 		EntityTransaction entityTransaction = entityManager.getTransaction();
 		entityTransaction.begin();
 		entityManager.persist(user);
-		//everything between persist and commit marks the transaction
+		//everything between begin and commit marks the transaction
 		entityTransaction.commit();
 		entityManager.close();
 	}
@@ -32,7 +32,7 @@ public class UserDao {
 		EntityTransaction entityTransaction = entityManager.getTransaction();
 		entityTransaction.begin();
 		User returnedUser = entityManager.find(User.class,id);
-		//everything between persist and commit marks the transaction
+		//everything between begin and commit marks the transaction
 		entityTransaction.commit();
 		entityManager.close();
 		return returnedUser;				

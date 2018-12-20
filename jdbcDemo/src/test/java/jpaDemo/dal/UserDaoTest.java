@@ -63,7 +63,6 @@ public class UserDaoTest {
 		order.verify(mockEt).commit();
 		order.verify(mockEm).close();
 		
-		assertEquals(mockUser, returnedUser);
 	}
 		
 

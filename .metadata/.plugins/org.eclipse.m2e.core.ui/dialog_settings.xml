@@ -31,6 +31,22 @@
 		<list key="issueManagementUrl">
 		</list>
 	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\kabir.rajput\JavaEclipseWorkspace\legendAir2"/>
+			<item value="C:\Users\kabir.rajput\JavaEclipseWorkspace\SimpleSpringMVCExample"/>
+			<item value="C:\Users\kabir.rajput\JavaEclipseWorkspace\SpringCoreAnnotationsExample"/>
+			<item value="C:\Users\kabir.rajput\JavaEclipseWorkspace"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
 	<section name="MavenProjectWizardArchetypePage">
 		<item value="All Catalogs" key="catalog"/>
 		<list key="projectNameTemplate">
@@ -46,6 +62,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\kabir.rajput\JavaEclipseWorkspace\servletsDemo"/>
+			<item value="C:\Users\kabir.rajput\JavaEclipseWorkspace\jdbcDemo\src\main\resources\META-INF\persistence.xml"/>
 			<item value="C:\Users\kabir.rajput\JavaEclipseWorkspace"/>
 			<item value="C:\Users\kabir.rajput\JavaEclipseWorkspace\tddAssessment_Kabir\src\test\java\com\fdmgroup\tdd\group\controller\GroupControllerServiceTest.java"/>
 			<item value="C:\Users\kabir.rajput\JavaEclipseWorkspace\interval\src\test\java\IntervalInterviewQuestion\interval\IntevalTest.java"/>
@@ -68,6 +86,9 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.fdm.legendAssetsWebApp"/>
+			<item value="ServletsDemo.servletsDemo"/>
+			<item value="LegendAssets.legendAssets"/>
 			<item value="OOD3_Codility_Krypton_Kabir.Krypton_Kabir"/>
 			<item value="OOD3_Elevator_Kabir.elevatorProject"/>
 			<item value="currencyProject.currencyProject"/>
@@ -80,10 +101,11 @@
 			<item value="Collections.collectionsExercise"/>
 			<item value="ExCollections.collections"/>
 			<item value="ExCollections.Collections"/>
-			<item value="Ex5Mockito.Mock"/>
-			<item value="UserReg.userReg"/>
 		</list>
 		<list key="groupId">
+			<item value="com.fdm"/>
+			<item value="ServletsDemo"/>
+			<item value="LegendAssets"/>
 			<item value="OOD3_Codility_Krypton_Kabir"/>
 			<item value="OOD3_Elevator_Kabir"/>
 			<item value="currencyProject"/>
@@ -96,9 +118,11 @@
 			<item value="Collections"/>
 			<item value="ExCollections"/>
 			<item value="Ex5Mockito"/>
-			<item value="UserReg"/>
 		</list>
 		<list key="artifactId">
+			<item value="legendAssetsWebApp"/>
+			<item value="servletsDemo"/>
+			<item value="legendAssets"/>
 			<item value="Krypton_Kabir"/>
 			<item value="elevatorProject"/>
 			<item value="currencyProject"/>
@@ -111,8 +135,6 @@
 			<item value="collectionsExercise"/>
 			<item value="collections"/>
 			<item value="Collections"/>
-			<item value="Mock"/>
-			<item value="userReg"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

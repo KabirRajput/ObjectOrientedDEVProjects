@@ -1,0 +1,94 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+
+	<servlet>
+		<servlet-name>IndexServlet</servlet-name>
+		<servlet-class>com.fdmgroup.LegendAir.controller.IndexController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>IndexServlet</servlet-name>
+		<url-pattern></url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SearchFlightServlet</servlet-name>
+		<servlet-class>com.fdmgroup.LegendAir.controller.SearchFlightController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SearchFlightServlet</servlet-name>
+		<url-pattern>/search</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.fdmgroup.LegendAir.controller.LoginController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>com.fdmgroup.LegendAir.controller.LogoutController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>RegisterServlet</servlet-name>
+		<servlet-class>com.fdmgroup.LegendAir.controller.RegisterController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>RegisterServlet</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AirportServlet</servlet-name>
+		<servlet-class>com.fdmgroup.LegendAir.controller.AirportController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>AirportServlet</servlet-name>
+		<url-pattern>/airport</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>BookServlet</servlet-name>
+		<servlet-class>com.fdmgroup.LegendAir.controller.BookController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>BookServlet</servlet-name>
+		<url-pattern>/book</url-pattern>
+	</servlet-mapping>
+
+	<listener>
+		<listener-class>com.fdmgroup.LegendAir.listener.ApplicationContextListener</listener-class>
+	</listener>
+
+	<!-- <servlet-mapping> -->
+	<!-- <servlet-name>IndexServlet</servlet-name> -->
+	<!-- <url-pattern>/index</url-pattern> -->
+	<!-- </servlet-mapping> -->
+
+	<!-- <servlet> -->
+	<!-- <servlet-name>LoginServlet</servlet-name> -->
+	<!-- <servlet-class>com.fdm.controller.LoginController</servlet-class> -->
+	<!-- </servlet> -->
+
+	<!-- <servlet-mapping> -->
+	<!-- <servlet-name>LoginServlet</servlet-name> -->
+	<!-- <url-pattern>/login</url-pattern> -->
+	<!-- </servlet-mapping> -->
+</web-app>
